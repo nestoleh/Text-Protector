@@ -23,6 +23,14 @@
             android:layout_margin="@dimen/space_m"
             android:orientation="vertical">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/space_l"
+                android:text="@string/label_balance"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
             <com.nestoleh.textprotector.widget.ProtectedTextView
                 android:id="@+id/amount"
                 android:layout_width="match_parent"
@@ -52,7 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/space_m"
-        android:background="#EAEAEA"
+        app:cardBackgroundColor="?attr/colorPrimary"
         app:cardCornerRadius="@dimen/space_m"
         app:cardElevation="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
