@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TextProtector</string>
+
+    <string name="label_protected_mode">Protected mode</string>
+
+    <!-- Test data -->
+    <string name="test_data_amount_message">You already spent %1$s and have to pay %2$s until %3$s to left in the grace period</string>
+</resources>
