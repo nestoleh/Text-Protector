@@ -5,6 +5,7 @@ plugins {
 }
 
 group = 'com.github.nestoleh'
+version = rootProject.ext.lib_version
 
 android {
     compileSdk 31
@@ -48,4 +49,17 @@ dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.4.1'
 
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.nestoleh'
+                artifactId = 'protector'
+                version = rootProject.ext.lib_version
+            }
+        }
+    }
 }
