@@ -15,7 +15,22 @@ This is a small library for replacing part of a text in a TextView with another 
 ## Requirements
 - Min SDK 21+
 
-## Using
-See sample project in repo
+## Install
+Add this in your root build.gradle at the end of repositories:
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Add this line to your app's dependencies:
+```
+implementation 'com.github.nestoleh:text-protector:version'
+```
 
-Enjoy! 🎉
+## Using
+See sample project in repo <a href="https://github.com/nestoleh/Text-Protector/blob/master/sample/src/main/java/com/nestoleh/textprotector/sample/MainActivity.kt">here</a> 
+<br><br>
+<b>Enjoy! 🎉</b>
