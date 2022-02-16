@@ -2,7 +2,7 @@
 <img src="https://github.com/nestoleh/Text-Protector/blob/master/static/icon.png" width="300" height="300" />
 </p>
 
-# Text Protector
+# Text Protector [![](https://jitpack.io/v/nestoleh/Text-Protector.svg)](https://jitpack.io/#nestoleh/Text-Protector)
 A simple Android library to "protect" part of text using Span
 <p align="center">
 <img src="https://github.com/nestoleh/Text-Protector/blob/master/static/screenshot_1.jpg" width="270" height="585" />&nbsp;&nbsp;
