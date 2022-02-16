@@ -1,11 +1,18 @@
 buildscript {
+    ext {
+        lib_version = '0.1'
+        lib_version_code = 1
+    }
+    
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://jitpack.io'}
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.4"
-        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+        classpath "com.github.dcendents:android-maven-gradle-plugin:2.1"
     }
 }
 
