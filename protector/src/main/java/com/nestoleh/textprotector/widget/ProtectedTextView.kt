@@ -17,7 +17,7 @@ open class ProtectedTextView : AppCompatTextView {
             if (field != value) {
                 field = value
                 updateSpansState()
-                invalidate()
+                text = text // used to redraw view correct
             }
         }
 
