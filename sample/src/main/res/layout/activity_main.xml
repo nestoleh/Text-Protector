@@ -23,7 +23,7 @@
             android:layout_margin="@dimen/space_m"
             android:orientation="vertical">
 
-            <TextView
+            <com.nestoleh.textprotector.widget.ProtectedTextView
                 android:id="@+id/amount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -33,7 +33,7 @@
                 android:textStyle="bold"
                 tools:text="1 000 000.00" />
 
-            <TextView
+            <com.nestoleh.textprotector.widget.ProtectedTextView
                 android:id="@+id/amountMessage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
