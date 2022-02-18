@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        lib_version = '0.1.4'
+        lib_version = '0.1.5'
         lib_version_code = 5
     }
     
